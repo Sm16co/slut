@@ -237,18 +237,17 @@ body {
 
 @media screen and (min-width: 1900px) {
   div.haha {
-    font-size: 80px;
+    font-size: 79px;
   }
 }
 
-/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1900px) {
-  div.haha {
+  haha {
     font-size: 40px;
   }
 }
 @media screen and (max-width: 600px) {
   content {
-    display: none;
+    display: inline-flex;
   }
 }
