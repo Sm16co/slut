@@ -221,5 +221,17 @@ body {
           margin: auto;
 
      }
-    
+  
+@media screen and (max-width: 982px) {
+  body {
+    background-color: blue;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  body {
+    background-color: olive;
+  }
+}
 
