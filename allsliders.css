@@ -62,7 +62,7 @@
     
     right: 0%;
     }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 290px) {
   div.content {
     display: none;
   }
