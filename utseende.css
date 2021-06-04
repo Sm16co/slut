@@ -242,7 +242,7 @@ body {
 }
 
 /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1899px) {
+@media screen and (max-width: 1900px) {
   div.haha {
     font-size: 40px;
   }
