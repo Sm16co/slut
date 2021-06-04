@@ -231,19 +231,19 @@ body {
 
 @media screen and (max-width: 520px) {
   body {
-    background-color: white;
+    background-color: orange;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1900px) {
   div.haha {
     font-size: 80px;
   }
 }
 
 /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1899px) {
   div.haha {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
