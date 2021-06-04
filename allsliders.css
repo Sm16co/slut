@@ -62,8 +62,8 @@
     
     right: 0%;
     }
-@media screen and (max-width: 290px) {
-  div.content {
+@media screen and (max-width: 600px) {
+  content {
     display: none;
   }
 }
