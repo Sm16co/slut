@@ -223,7 +223,7 @@ body {
      }
     
 @media screen and (max-width: 600px) {
-  div.example {div-content
+  div.content {
     display: none;
   }
 }
