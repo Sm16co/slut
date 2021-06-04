@@ -222,26 +222,9 @@ body {
 
      }
     
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-
-.topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
 @media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+  div.example {div-content
+    display: none;
   }
 }
+
