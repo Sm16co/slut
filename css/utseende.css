@@ -1,0 +1,290 @@
+.navbar {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  table.GeneratedTable {
+    width: 20px;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #152666;
+    border-style: inset;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #152666;
+    border-style: inset;
+    padding: 3px;
+    box-shadow: 3px 3px rgb(150, 136, 11);
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #109437;
+  }
+  
+  
+  
+  table.GeneratedTable thead {
+      background-color: #109437;
+    }
+   
+    
+    
+      
+  
+  body{
+    width: 700px;
+    margin: auto;
+  }
+  
+  
+  
+    .navbar {
+      list-style-type: lower-alpha;
+      margin: 0;
+      padding: 0;
+      overflow:visible;
+      background-color: rgb(148, 202, 0);
+
+    }
+  
+  
+  .navbar li a {
+      display:grid;
+      color: #0e7ee7;
+      text-align: center ;
+      padding: 5px 5px;
+      text-decoration-style: inherit;
+  width: 700px;
+  margin: auto;
+     }
+  .navbar li a:hover{
+      background-color: rgb(221, 161, 142);
+      text-decoration-style: dashed;
+        color: rgb(6, 20, 4);
+  
+  
+  
+  
+  
+  
+  
+  }
+  body {
+      color: rgb(17, 4, 4);
+     width: 900px;
+     margin: auto;
+     background-color: #8adbca5b;
+    }    
+  
+  
+    .soccer {
+  
+      list-style: none;
+      
+      padding-left: 0;
+      
+      }
+      
+      .soccer {
+      
+      position: relative;
+      
+      padding-left: 30px;
+      
+      line-height: 170%;
+      
+      }
+      
+      .soccer li:before {
+      
+      content: '';
+      
+      width: 20px;
+      
+      height: 20px;
+      
+      position: absolute;
+      
+      background-image: url('sweden.png');
+      
+      background-size: cover;
+      
+      background-position: center;
+      
+      left: 0;
+      
+      top: 50%;
+      
+      transform: translateY(-50%);
+      
+      }
+  
+  
+      .offside {
+  
+        list-style: none;
+        
+        padding-left: 0;
+        
+        }
+        
+        .offside{
+        
+        position: relative;
+        
+        padding-left: 30px;
+        
+        line-height: 170%;
+        
+        }
+        
+        .offside li:before {
+        
+        content: '';
+        
+        width: 20px;
+        
+        height: 20px;
+        
+        position: absolute;
+        
+        background-image: url('bosnia-and-herzegovina.png');
+        
+        background-size: cover;
+        
+        background-position: center;
+        
+        left: 0;
+        
+        top: 50%;
+        
+        transform: translateY(-50%);
+        
+        }
+    
+    
+        .kyckling {
+  
+          list-style: none;
+          
+          padding-left: 0;
+          
+          }
+          
+          .kyckling {
+          
+          position: relative;
+          
+          padding-left: 30px;
+          
+          line-height: 170%;
+          
+          }
+          
+          .kyckling li:before {
+          
+          content: '';
+          
+          width: 20px;
+          
+          height: 20px;
+          
+          position: absolute;
+          
+          background-image: url('united-kingdom.png');
+          
+          background-size: cover;
+          
+          background-position: center;
+          
+          left: 0;
+          
+          top: 50%;
+          
+          transform: translateY(-50%);
+          
+          }
+      
+      
+  
+          .ordered {
+  
+            line-height: 110%;
+          }
+          .alsmd {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .haha {
+            width: 700px;
+            margin: auto;
+  
+       }
+    
+  @media screen and (max-width: 982px) {
+    body {
+      background-color: orange;
+    }
+  }
+  
+  
+  @media screen and (max-width: 520px) {
+    body {
+      background-color: #009999;
+    }
+  }
+
+@media only screen and (max-width: 503px) {
+    div.haha {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (min-width: 502px) {
+    div.haha {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 343px){
+   
+    .navbar {
+    background-color: rgb(16, 38, 138);
+  }
+ }
+ .col-1 {width: 9.33%;}
+ .col-2 {width: 15.86%;}
+ .col-3 {width: 26%;}
+ .col-4 {width: 33.35%;}
+ .col-5 {width: 44.76%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 57.33%;}
+ .col-8 {width: 65.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.7%;}
+ .col-11 {width: 91.3%;}
+ .col-12 {width: 99%;}
+ 
+ @media only screen and (max-width: 750px) {
+   
+   [class*="col-11"] {
+     width: 80%;
+   }
+ }
+
+
+ div.hs {
+
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.hs {
+      display: none;
+    }
+  }
